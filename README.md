@@ -89,19 +89,21 @@ core/
  ├── helpers/      # system info collectors (CPU/GPU/RAM/etc.)
  ├── interface/    # REPL CLI, parser, handler, loader
  ├── security/     # secure workspace + path sanitization
- ├── ui/           # utils, logging, tables, spinners, progress bar
- └── main.py       # application entrypoint (REPL loop)
+ └── ui/           # utils, logging, tables, spinners, progress bar
 plugins/           # user-defined command modules
+main.py       # application entrypoint (REPL loop)
 ```
 
 ---
 
 ## ⚙️ Extending with Plugins
 
-Create a new file under `plugins/`:
+Plugins can be easily created and loaded into the terminal.
+The core functions and other external functions can both be utilised. 
 
+Example plugin:
 ```python
-# plugins/hello.py
+# plugins/example/entrypoint.py
 from core.commands import command
 
 @command(description="Say hello")
@@ -109,14 +111,7 @@ def hello(name: str = "world") -> str:
     return f"Hello, {name}!"
 ```
 
-Restart Lunar Terminal:
-
-```bash
-> hello
-Hello, world!
-```
-
----
+For more information on creating plugins see The Documentation.
 
 ## 🔒 Security Model
 
