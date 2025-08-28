@@ -111,7 +111,7 @@ def hello(name: str = "world") -> str:
     return f"Hello, {name}!"
 ```
 
-For more information on creating plugins see The Documentation.
+For more information on creating plugins see [the plugin documentation](github.com/sx-kaos/lunar-terminal/PLUGINS.md).
 
 ## 🔒 Security Model
 
