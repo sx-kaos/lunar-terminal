@@ -14,10 +14,10 @@
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Plugins](#plugins)
-- [Security](#security)
-- [Developer Guide](#developer-guide)
-- [Architecture](#architecture)
+- [Plugins](#PLUGINS.MD)
+- [Security](#SECURIRY.MD)
+- [Developer Guide](#DEV_GUIDE.MD)
+- [Architecture](#ARCHITECTURE.MD)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -88,7 +88,7 @@ python -m core.main
 - Every command must define a `category` with description and example.
 - Optional argument completers enhance user experience.
 
-Refer to [Plugin Development Guide](plugins.md) for full instructions.
+Refer to [Plugin Development Guide](PLUGINS.md) for full instructions.
 
 ---
 
@@ -99,7 +99,7 @@ Refer to [Plugin Development Guide](plugins.md) for full instructions.
 - Windows-specific hardening includes ACLs, EFS encryption, and TEMP/TMP isolation.
 - Registry synced to SQLite for persistence.
 
-See [Security Model](security.md) for full details.
+See [Security Model](SECURITY.md) for full details.
 
 ---
 
@@ -110,7 +110,7 @@ See [Security Model](security.md) for full details.
 - Return either a string, `None`, or `CommandResult` from commands.
 - Use type hints for safe argument coercion and workspace sandboxing.
 
-See [Architecture Guide](architecture.md) for details on modules and interactions.
+See [Architecture Guide](ARCHITECTURE.md) for details on modules and interactions.
 
 ---
 
@@ -144,10 +144,3 @@ pip install -r requirements-dev.txt
 ## License
 
 MIT License © 2025 [sx-kaos](https://github.com/sx-kaos/lunar-terminal)
-
----
-
-## Logo Placeholder
-
-![Lunar Terminal Logo](docs/logo.png)
-
