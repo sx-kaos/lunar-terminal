@@ -15,9 +15,9 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Plugins](https://github.com/sx-kaos/lunar-terminal/blob/main/docs/PLUGINS.md)
-- [Security](#SECURIRY.MD)
-- [Developer Guide](#DEV_GUIDE.MD)
-- [Architecture](#ARCHITECTURE.MD)
+- [Security](https://github.com/sx-kaos/lunar-terminal/blob/main/docs/SECURITY.MD)
+- [Developer Guide](https://github.com/sx-kaos/lunar-terminal/blob/main/docs/DEV_GUIDE.MD)
+- [Architecture](https://github.com/sx-kaos/lunar-terminal/blob/main/docs/ARCHITECTURE.MD)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -88,7 +88,7 @@ python -m core.main
 - Every command must define a `category` with description and example.
 - Optional argument completers enhance user experience.
 
-Refer to [Plugin Development Guide](PLUGINS.md) for full instructions.
+Refer to [Plugin Development Guide](https://github.com/sx-kaos/lunar-terminal/blob/main/docs/PLUGINS.md) for full instructions.
 
 ---
 
@@ -99,7 +99,7 @@ Refer to [Plugin Development Guide](PLUGINS.md) for full instructions.
 - Windows-specific hardening includes ACLs, EFS encryption, and TEMP/TMP isolation.
 - Registry synced to SQLite for persistence.
 
-See [Security Model](SECURITY.md) for full details.
+See [Security Model](https://github.com/sx-kaos/lunar-terminal/blob/main/docs/SECURITY.md) for full details.
 
 ---
 
@@ -110,7 +110,7 @@ See [Security Model](SECURITY.md) for full details.
 - Return either a string, `None`, or `CommandResult` from commands.
 - Use type hints for safe argument coercion and workspace sandboxing.
 
-See [Architecture Guide](ARCHITECTURE.md) for details on modules and interactions.
+See [Architecture Guide](https://github.com/sx-kaos/lunar-terminal/blob/main/docs/ARCHITECTURE.md) for details on modules and interactions.
 
 ---
 
