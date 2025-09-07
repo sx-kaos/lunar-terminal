@@ -14,7 +14,7 @@
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Plugins](#docs/PLUGINS.MD)
+- [Plugins](https://github.com/sx-kaos/lunar-terminal/blob/main/docs/PLUGINS.MD)
 - [Security](#SECURIRY.MD)
 - [Developer Guide](#DEV_GUIDE.MD)
 - [Architecture](#ARCHITECTURE.MD)
